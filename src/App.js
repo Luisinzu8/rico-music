@@ -1,11 +1,13 @@
 import './App.css';
+import MusicVideo from './Components/MusicVideo.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Rico Music Page
+        Drew Amour
       </header>
+      <MusicVideo embedId="xq9CosdrjVc" />
     </div>
   );
 }
