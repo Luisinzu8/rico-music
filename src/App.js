@@ -1,13 +1,18 @@
 import './App.css';
 import MusicVideo from './Components/MusicVideo.js';
+import Header from './Components/Header';
+import Title from './Components/Title';
+import About from './Components/About';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Drew Amour
-      </header>
+      <Header />
+      <Title />
       <MusicVideo embedId="xq9CosdrjVc" />
+      <About />
+      <Footer />
     </div>
   );
 }

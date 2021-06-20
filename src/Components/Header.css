@@ -1,0 +1,23 @@
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right;
+    display: block;
+    padding: 16px;
+    list-style: none;
+    opacity: 0.55;
+}
+
+li, a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+li, a:active {
+    text-decoration: none;
+    color: white;
+}
