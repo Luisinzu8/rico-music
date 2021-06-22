@@ -1,5 +1,5 @@
 import './App.css';
-import MusicVideo from './Components/MusicVideo.js';
+import MusicVideo from './Components/MusicVideo';
 import Header from './Components/Header';
 import Title from './Components/Title';
 import About from './Components/About';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Title />
-      <MusicVideo embedId="xq9CosdrjVc" />
+      <MusicVideo embedId="xq9CosdrjVc?rel=0" />
       <About />
       <Footer />
     </div>

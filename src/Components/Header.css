@@ -2,7 +2,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
 }
 li {
     float: right;
@@ -12,12 +12,15 @@ li {
     opacity: 0.55;
 }
 
-li, a:hover {
-    text-decoration: none;
-    color: green;
-}
-
 li, a:active {
     text-decoration: none;
     color: white;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: green;
 }

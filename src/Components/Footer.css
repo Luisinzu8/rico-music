@@ -1,4 +1,7 @@
 .footer {
+    color: #fff;
+    width: 100%;
     float: right;
-    padding-right: 10%;
+    overflow: hidden;
+    background-color: #333;
 }
